@@ -1,101 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c97aa7df-ebe5-450f-88a1-e78e005d293c" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/contract/DeployShipsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/contract/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/contract/GameFireCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/contract/GameFireResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/contract/GameJoinCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/contract/GameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/contract/GameStartCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/event/GameCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/event/GameFireEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-api/src/main/java/com/odigeo/interview/coding/battleshipapi/event/KafkaEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/infrastructure/kafka-rar-0.6.0.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/infrastructure/standalone-full.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/JaxRsActivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/controller/EngineeringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/controller/KafkaMDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/exception/ClientException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/service/BattleshipClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/service/BattleshipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/service/CoordinateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/util/BattleshipClientCommandBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/util/ComputerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/webapp/WEB-INF/jboss-deployment-structure.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/main/webapp/WEB-INF/jboss-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/test/java/com/odigeo/interview/coding/battleshipcomputerservice/controller/EngineeringControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/test/java/com/odigeo/interview/coding/battleshipcomputerservice/controller/KafkaMDBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/test/java/com/odigeo/interview/coding/battleshipcomputerservice/service/BattleshipClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/test/java/com/odigeo/interview/coding/battleshipcomputerservice/service/BattleshipServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-computer-service/src/test/java/com/odigeo/interview/coding/battleshipcomputerservice/service/CoordinateServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/infrastructure/kafka-rar-0.6.0.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/infrastructure/standalone-full.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/JaxRsActivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/controller/EngineeringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/controller/provider/BattleshipExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/controller/provider/RuntimeExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/BattleshipException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/GameFinishedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/GameJoinException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/GameNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/GameStartException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/KafkaProducerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/NotYourTurnException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/ShipDeploymentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/ShipsAlreadyDeployedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/exception/WrongCoordinateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/mapper/GameMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/ship/AircraftCarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/ship/Battleship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/ship/Cruiser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/ship/Destroyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/ship/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/ship/ShipType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/model/ship/Submarine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/repository/GameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/repository/GameRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/repository/entity/GameEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/service/CoordinateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/service/FieldService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/service/GameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/service/KafkaProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/util/GameConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/util/ShipDeploymentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/webapp/WEB-INF/jboss-deployment-structure.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/main/webapp/WEB-INF/jboss-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/controller/EngineeringControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/controller/GameControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/repository/GameRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/service/CoordinateServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/service/FieldServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/service/GameServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/service/KafkaProducerServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/util/ShipDeploymentBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/util/ShipDeploymentValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/postman/battleship.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/postman/local.postman_environment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="c97aa7df-ebe5-450f-88a1-e78e005d293c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/battleship-computer-service/target/" />
     <ignored path="$PROJECT_DIR$/battleship-service/target/" />
@@ -265,11 +173,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/service/CoordinateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="135">
               <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -353,6 +270,7 @@
       <list>
         <option value="$PROJECT_DIR$/battleship-service/src/test/java/com/odigeo/interview/coding/battleshipservice/repository/GameRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/battleship-service/src/main/java/com/odigeo/interview/coding/battleshipservice/mapper/GameMapper.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -393,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1674555594370" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1674555670729" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -419,12 +337,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674553588626</updated>
-      <workItem from="1674553595173" duration="1711000" />
+      <workItem from="1674553595173" duration="1787000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1674555618133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674555618133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1711000" />
+    <option name="totallyTimeSpent" value="1787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="111" y="81" width="1569" height="898" extended-state="0" />
@@ -441,10 +367,10 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.64625" />
+      <window_info anchor="bottom" id="Messages" weight="0.64625" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -472,6 +398,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
@@ -657,8 +584,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/battleship-computer-service/src/main/java/com/odigeo/interview/coding/battleshipcomputerservice/service/CoordinateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="135">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
